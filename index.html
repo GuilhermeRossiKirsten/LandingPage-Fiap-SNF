@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./src/javascript/menu.js" defer></script>
+
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>Lading Page</title>
+  </head>
+  <body style="background-color: #fff9ea; border: 12px">
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-hard-drive" id="nav_logo"> F(MRG³)</i>
+
+        <ul id="nav_list">
+          <li class="nav_item active">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefFunc">Funcionalidades</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefProjeto">Telas do Projeto</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefVideo">Vídeo</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefForm">Sugestões</a>
+          </li>
+        </ul>
+        <button id="contactButton" class="btn_default">Contatos</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav_item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefFunc">Funcionalidades</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefProjeto">Telas do Projeto</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefVideo">Vídeo</a>
+          </li>
+          <li class="nav_item">
+            <a href="#hrefForm">Sugestões</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div id="cta">
+          <h1 class="title">
+            Cuidando do Bem-Estar dos Seus Funcionários: Sua Empresa, Mais
+            <span>Saudável</span> e <span>Produtiva</span>!
+          </h1>
+          <p class="description">
+            Nosso aplicativo foi projetado para melhorar a gestão dos
+            funcionários, com foco especial no estado emocional de cada
+            colaborador. Oferecemos uma plataforma intuitiva e eficiente que
+            ajuda empresas a monitorar o bem-estar emocional dos seus
+            funcionários, promovendo um ambiente de trabalho mais saudável e
+            produtivo.
+          </p>
+          <div id="cta_buttons">
+            <a href="" class="btn_default">
+              <i class="fa-brands fa-github"></i>
+              Github
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="imagens de pessoas trabalhando"
+          />
+        </div>
+      </section>
+
+      <span id="hrefFunc" class="divisor"></span>
+      <section id="func">
+        <div class="funcCTX">
+          <h2 class="section_title">Funcionalidades</h2>
+          <h3 class="section_subtitle">Principais ferramentas para gestão</h3>
+        </div>
+        <div id="funcionalidades">
+          <ul>
+            <li>Monitoramento contínuo do estado emocional dos funcionários</li>
+            <li>Relatórios detalhados e personalizados</li>
+            <li>Feedback anônimo para um ambiente mais honesto</li>
+            <li>Recursos de suporte e assistência emocional</li>
+            <li>Integração com dispositivos móveis e totens</li>
+            <li>Assistente virtual com inteligência artificial</li>
+          </ul>
+        </div>
+      </section>
+
+      <span id="hrefProjeto" class="divisor"></span>
+
+      <section>
+        <div id="telaProjeto">
+          <h2 class="section_title">Telas do Projeto</h2>
+        </div>
+        <section class="cardBody">
+          <div class="cards1">
+            <div class="card1">
+              <div class="icon">
+                <img
+                  src="./src/images/telaInicial.png"
+                  alt="Tela Inicial do aplicativo"
+                />
+              </div>
+              <div class="textoCard">
+                <h1>Tela Inicial</h1>
+                <p>
+                  Tela inicial onde o funcionario pode descrever como ele está
+                  se sentindo e deixar um texto como complemento.
+                </p>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="icon">
+                <div class="icon">
+                  <img
+                    src="./src/images/TelaCriacao.png"
+                    alt="Tela Inicial do aplicativo"
+                  />
+                </div>
+              </div>
+              <div class="textoCard">
+                <h1>Tela de criação de avaliações</h1>
+                <p>
+                  O gerente pode inserir perguntas e salvar em um questionário
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section>
+        <section class="cardBody">
+          <div class="cards1">
+            <div class="card1">
+              <div class="icon">
+                <div class="icon">
+                  <img
+                    src="/src/images/telaGerente.png"
+                    alt="Tela Inicial do aplicativo"
+                  />
+                </div>
+              </div>
+              <div class="textoCard">
+                <h1>Tela do Gerente</h1>
+                <p>
+                  Tela Usada para fazer uma busca do banco de dados sobre o
+                  Feedback do funcionario
+                </p>
+              </div>
+            </div>
+            <div class="card1">
+              <div class="icon">
+                <img src="/src/images/telaChatBot.png" alt="Tela do Chatbot" />
+              </div>
+              <div class="textoCard">
+                <h1>ChatBot</h1>
+                <p>
+                  O chatbot poderá ajudar o funcionario a achar funcionalidades
+                  dentro da plataforma de forma simples e rápida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <span id="hrefVideo" class="divisor"></span>
+
+      <article>
+        <h2 class="textoVideo"><span>Vídeo</span></h2>
+        <div class="ratio ratio-16x9 my-2 object-fit-md-cover rounded">
+          <iframe
+            class="videoEmbed"
+            src="https://www.youtube.com/embed/Fiz3RKmJ52g?si=hsFMjVWSADMGuSoE"
+            title="YouTube video player"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+
+      <span id="hrefForm" class="divisor"></span>
+
+      <section id="containerForm">
+        <h2 class="textosugestoes"><span>Sugestões</span></h2>
+
+        <form id="contactForm">
+          <h2>Contato</h2>
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              placeholder="Digite seu nome"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              placeholder="Digite seu email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="(11)987654321"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Digite aqui suas sugestões"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <span class="contentCopy"
+        >© Copyright 2024 F(MRG3). All rights reserved.
+      </span>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p id="modal-message">aaaaaaaa</p>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="./src/javascript/script.js" defer></script>
+  <script src="src/javascript/modalContatos.js" defer></script>
+</html>

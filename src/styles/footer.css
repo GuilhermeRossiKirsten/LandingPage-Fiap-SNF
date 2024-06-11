@@ -1,0 +1,13 @@
+footer{
+    background-color: #343A3F;
+    height: 100px;
+    display: flex;
+}
+
+.contentCopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: #B9BABC;
+}

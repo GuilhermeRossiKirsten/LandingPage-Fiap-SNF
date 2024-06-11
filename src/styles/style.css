@@ -1,0 +1,107 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./form.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #fff9ea;
+}
+
+section {
+  padding: 28px 8%;
+}
+
+.btn_default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #008c80;
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.btn_header {
+  border: none;
+  background-color: #008c80;
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn_default:hover {
+  background-color: #02ddc7;
+}
+
+.section_title {
+  color: #008c80;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.section_subtitle {
+  font-size: 2.1rem;
+}
+
+.divisor {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
