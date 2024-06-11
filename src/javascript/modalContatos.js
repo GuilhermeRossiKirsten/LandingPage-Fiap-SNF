@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  function showModal(msg1, msg2, msg3, msg4, msg5) {
+  function showModal(msg1, msg2, msg3, msg4, msg5, msg6) {
     const modal = document.getElementById("modal");
     const modalMessage = modal.querySelector("p");
     modalMessage.innerHTML = "";
@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
     modalMessage.appendChild(document.createTextNode(msg4));
     modalMessage.appendChild(document.createElement("br"));
     modalMessage.appendChild(document.createTextNode(msg5));
+    modalMessage.appendChild(document.createElement("br"));
+    modalMessage.appendChild(document.createTextNode(msg6));
     modal.style.display = "block";
   }
 });
